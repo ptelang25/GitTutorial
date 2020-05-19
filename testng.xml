@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+<listeners>
+<listener class-name="academy3.Listeners"></listener>
+</listeners>
+  <test thread-count="5" name="Validating User Login">
+    <classes>
+      <class name="academy3.Login3"/>
+    </classes>
+   </test>
+   <test thread-count="5" name="Validating Title">
+    <classes>  
+      <class name="academy3.TitleValidation3"/>
+       </classes>
+   </test>
+     <test thread-count="5" name="Validating Navingation Bar">
+    <classes>
+     <class name="academy3.NavbarValidation3"/>
+     </classes>
+   </test>
+    <test thread-count="5" name="Validating Reset Password Funtionality">
+    <classes>
+     <class name="academy3.ResetPasswordValidation"/>
+     </classes>
+   </test>
+ </suite> <!-- Suite -->

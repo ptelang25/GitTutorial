@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="academy3.Listeners"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="Validating Title(failed)" parallel="tests">
+    <classes>
+      <class name="academy3.TitleValidation3">
+        <methods>
+          <include name="validateTitle"/>
+          <include name="closeBrowser"/>
+          <include name="initializeTest"/>
+        </methods>
+      </class> <!-- academy3.TitleValidation3 -->
+    </classes>
+  </test> <!-- Validating Title(failed) -->
+  <test thread-count="5" verbose="0" name="Validating Reset Password Funtionality(failed)" parallel="tests">
+    <classes>
+      <class name="academy3.ResetPasswordValidation">
+        <methods>
+          <include name="verifyResetPassword"/>
+          <include name="closeBrowser"/>
+          <include name="initializeTest"/>
+        </methods>
+      </class> <!-- academy3.ResetPasswordValidation -->
+    </classes>
+  </test> <!-- Validating Reset Password Funtionality(failed) -->
+  <test thread-count="5" verbose="0" name="Validating User Login(failed)" parallel="tests">
+    <classes>
+      <class name="academy3.Login3">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="initializeTest"/>
+          <include name="validateLogin" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- academy3.Login3 -->
+    </classes>
+  </test> <!-- Validating User Login(failed) -->
+</suite> <!-- Failed suite [Suite] -->

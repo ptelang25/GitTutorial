@@ -1,0 +1,4 @@
+12:32:09.709 [TestNG-tests-4] DEBUG resources.Base3 - Closing the browser..
+12:32:09.762 [TestNG-tests-4] INFO  resources.Base3 - Browser closed successfully
+12:32:19.594 [TestNG-tests-1] DEBUG academy3.Login3 - Closing the browser..
+12:32:19.645 [TestNG-tests-1] INFO  academy3.Login3 - Browser closed successfully

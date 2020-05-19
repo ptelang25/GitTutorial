@@ -1,0 +1,6 @@
+19:24:43.137 [TestNG] DEBUG academy3.NavbarValidation3 - Opening website: http://qaclickacademy.com
+19:24:43.137 [TestNG] DEBUG academy3.TitleValidation3 - Opening website: http://qaclickacademy.com
+19:24:46.507 [TestNG] INFO  academy3.Login3 - Opening website: http://qaclickacademy.com
+19:24:53.623 [TestNG] INFO  academy3.NavbarValidation3 - NavigationBar on landing page verified successfully
+19:24:53.627 [TestNG] DEBUG academy3.NavbarValidation3 - Closing the browser..
+19:24:53.793 [TestNG] INFO  academy3.NavbarValidation3 - Browser closed successfully

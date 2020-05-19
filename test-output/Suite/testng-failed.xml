@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="academy3.Listeners"/>
+  </listeners>
+  <test name="Validating Title(failed)" parallel="tests">
+    <classes>
+      <class name="academy3.NavbarValidation3">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="initializeTest"/>
+        </methods>
+      </class> <!-- academy3.NavbarValidation3 -->
+      <class name="academy3.Login3">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="initializeTest"/>
+        </methods>
+      </class> <!-- academy3.Login3 -->
+      <class name="academy3.TitleValidation3">
+        <methods>
+          <include name="validateTitle"/>
+          <include name="closeBrowser"/>
+          <include name="initializeTest"/>
+        </methods>
+      </class> <!-- academy3.TitleValidation3 -->
+      <class name="academy3.ResetPasswordValidation">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="initializeTest"/>
+        </methods>
+      </class> <!-- academy3.ResetPasswordValidation -->
+    </classes>
+  </test> <!-- Validating Title(failed) -->
+</suite> <!-- Failed suite [Suite] -->

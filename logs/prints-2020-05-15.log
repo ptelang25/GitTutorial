@@ -1,0 +1,6 @@
+11:46:07.379 [TestNG-tests-3] INFO  academy3.NavbarValidation3 - Browser closed successfully
+11:46:08.668 [TestNG-tests-2] DEBUG academy3.TitleValidation3 - Closing the browser..
+11:46:08.756 [TestNG-tests-2] INFO  academy3.TitleValidation3 - Browser closed successfully
+11:46:10.900 [TestNG-tests-1] DEBUG academy3.Login3 - Navigating to Login page..
+11:46:16.625 [TestNG-tests-1] DEBUG academy3.Login3 - Navigating to Login page..
+11:46:18.425 [TestNG-tests-1] DEBUG academy3.Login3 - Closing the browser..
